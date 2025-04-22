@@ -39,11 +39,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "1. Source face (first)\n"
         "2. Target image (where to swap the face)\n\n"
         "⚡ I'll send you a face swapped result instantly!\n"
-        "_Built with ❤️ by @AnshApi_"
+        "_Built with ❤️ by @TrustedHacker78_"
     )
 
     await update.message.reply_photo(
-        photo="https://envs.sh/KMm.jpg",  # You can replace this with any hosted image
+        photo="https://i.ibb.co/MxyWkqhd/file-13.jpg",  # You can replace this with any hosted image
         caption=caption,
         parse_mode="Markdown",
         reply_markup=reply_markup
