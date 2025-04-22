@@ -50,8 +50,8 @@ A powerful and easy-to-use **FaceSwap Bot** built with Python and the **FaceSwap
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/yourusername/telegram-faceswap-bot.git
-   cd telegram-faceswap-bot
+   git clone https://github.com/Maliknasir787/FaceSwapperBot.git
+   cd FaceSwapperBot
    ```
 
 2. **Install dependencies**
@@ -115,7 +115,7 @@ requests
 
 ## 🙋 Support
 
-For help or questions, message [@AnshApi](https://t.me/AnshApi)
+For help or questions, message [Nasir Hacker](https://t.me/Trustedhacker78)
 
 ---
 
