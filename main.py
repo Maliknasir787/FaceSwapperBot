@@ -64,7 +64,7 @@ async def handle_image(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # First image = source
     if user_id not in user_sessions:
         user_sessions[user_id] = {"source": image_url}
-        await update.message.reply_text("Now send the **target image**.")
+        await update.message.reply_text("Now send the *target image*.")
     else:
         user_sessions[user_id]["target"] = image_url
         processing_msg = await update.message.reply_text("⚙️ Swapping faces, please wait...")
