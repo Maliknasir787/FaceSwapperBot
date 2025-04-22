@@ -79,7 +79,7 @@ async def handle_image(update: Update, context: ContextTypes.DEFAULT_TYPE):
             if data["status"]:
                 result_url = data["result"]
                 await context.bot.delete_message(chat_id=update.effective_chat.id, message_id=processing_msg.message_id)
-                await update.message.reply_photo(photo=result_url, caption="✅ Face swapped successfully!\n_By @AnshAp")
+                await update.message.reply_photo(photo=result_url, caption="✅ Face swapped successfully!\n_By @TrustedHacker78")
             else:
                 await update.message.reply_text("❌ FaceSwap failed. Try again.")
         except Exception as e:
@@ -94,5 +94,5 @@ if __name__ == "__main__":
     app.add_handler(CommandHandler("start", start))
     app.add_handler(MessageHandler(filters.PHOTO, handle_image))
 
-    print("🤖 FaceSwap Bot by @AnshApi is running...")
+    print("🤖 FaceSwap Bot by @Trustedhacker78 is running...")
     app.run_polling()
