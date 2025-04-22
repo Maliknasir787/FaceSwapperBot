@@ -6,8 +6,7 @@
 
 A powerful and easy-to-use **FaceSwap Bot** built with Python and the **FaceSwap API**, with **imgbb** for image hosting and deployed on **Railway**.
 
-> ⚡ Built by [@AnshApi](https://t.me/AnshApi)
-
+> ⚡ Built by [Nasir Hacker](https://t.me/trustedhacker78)
 ---
 
 ## 📸 How It Works
