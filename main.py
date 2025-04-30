@@ -5,7 +5,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFi
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 
 # 🔐 Your bot token and imgbb key
-TELEGRAM_BOT_TOKEN = "8102838705:AAE13eHiTBMAGaN0UeZkRlMJf_r4v3voynU"
+TELEGRAM_BOT_TOKEN = "7503768849:AAFeMjxSadiBR1r3PZuIzlqq8LRDxWT_Cp8"
 IMGBB_API_KEY = "9a630c78902747a438f809137d5e1a37"
 
 # 🧠 Store users' source/target image URLs
